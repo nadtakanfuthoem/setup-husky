@@ -1,0 +1,28 @@
+{
+  "name": "setup-husky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint index.js",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadtakanfuthoem/setup-husky.git"
+  },
+  "author": "Nadtakan Futhoem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadtakanfuthoem/setup-husky/issues"
+  },
+  "homepage": "https://github.com/nadtakanfuthoem/setup-husky#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^7.0.0"
+  }
+}
